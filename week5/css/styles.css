@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif; /* Use Arial font or fallback to sans-serif */
+    font-size: 18px; /* Set font size to 18 pixels */
+}
+
+/* Select multiple elements and give them a common background color */
+header, footer {
+    background-color: #ccc; /* Light gray background */
+}
+
+/* Apply styles to elements with class 'site-title' */
+.site-title {
+    color: blue; /* Blue color for text */
+}
+
+/* Apply styles to an element with ID 'my-image' */
+#my-image {
+    box-shadow: 0 0 2px 1px black; /* Add a black box shadow */
+}
+
+/* Replace bullets with squares for unordered lists */
+ul {
+    list-style-type: square; /* Use square bullets */
+}
+
+/* Apply background color to odd list items within unordered lists */
+ul li:nth-child(odd) {
+    background-color: #f0f0f0; /* Light gray background for odd list items */
+}
+
+/* Styling the Navigation */
+
+/* Remove bullets from unordered lists within navigation */
+nav ul {
+    list-style: none; /* Remove bullets */
+}
+
+/* Styling for navigation links */
+nav a {
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline block */
+    padding: 5px 10px; /* Padding around the text */
+    background-color: #333; /* Dark gray background */
+    color: white; /* White text color */
+    border: 1px solid #333; /* Dark gray border */
+}
+
+/* Hover and focus styles for navigation links */
+nav a:hover,
+nav a:focus {
+    background-color: #555; /* Darker background color on hover/focus */
+}
