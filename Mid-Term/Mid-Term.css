@@ -35,8 +35,8 @@ body {
 
 /* Define wrapper styles */
 .wrapper {
-  margin: 0 auto;
-  width: 500;
+  margin: 10px auto;
+  width: 1000;
   background-color: lightcyan;
   font-family: Calibri, sans-serif; /* Set font to Calibri */
   
