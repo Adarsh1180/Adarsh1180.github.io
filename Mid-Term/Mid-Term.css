@@ -26,17 +26,6 @@ h1 {
   font-weight: bold; /* Make the font bold */
 }
 
-/* Styling for p1 */
-p.p1 {
-    margin-left: 10;/*adjusting margins*/
-    padding:10;/*adjusting padding*/
-    font-family: Calibri, sans-serif; /* Set font family */
-    font-size: 16; /* Set font size */
-    line-height: 1.6; /* Set line height */
-    margin-bottom: 20px; /* Add bottom margin */
-    color: #333; /* Set text color */
-}
-
 
 /* Set background color for body */
 body {
@@ -114,4 +103,15 @@ fieldset {
   width: 97%; /* Set the width */
   border: 2px solid black; /* Set border */
   padding: 20px; /* Add padding */
+}
+
+  /* Styling for p */
+p{
+    margin-left: 10;/*adjusting margins*/
+    padding:10;/*adjusting padding*/
+    font-family: Calibri, sans-serif; /* Set font family */
+    font-size: 16; /* Set font size */
+    line-height: 1.6; /* Set line height */
+    margin-bottom: 20px; /* Add bottom margin */
+    color: #333; /* Set text color */
 }
