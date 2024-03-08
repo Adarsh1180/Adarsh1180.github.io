@@ -106,7 +106,7 @@ fieldset {
 }
 
   /* Styling for p */
-p{
+p,P2{
     font-weight: bold;
     margin-left: 10;/*adjusting margins*/
     padding:10;/*adjusting padding*/
@@ -115,4 +115,10 @@ p{
     line-height: 1.6; /* Set line height */
     margin-bottom: 20px; /* Add bottom margin */
     color: #333; /* Set text color */
+}
+/* CSS for styling bullet points */
+.bullet-points {
+    list-style-type: disc; /* Use disc for bullet points */
+      margin-left: 20px; /* Add margin to push the text away from the bullet point */
+
 }
