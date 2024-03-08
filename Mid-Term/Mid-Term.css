@@ -1,0 +1,93 @@
+/* Apply box-sizing to all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Header holding the image and the text */
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+}
+
+/* Centered text within the header */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 180%);
+}
+
+/* Adjust padding for h1 element */
+h1 {
+  padding-top: 3px;
+  font-size: 28px; /* Change font size to 28px */
+  font-weight: bold; /* Make the font bold */
+}
+
+/* Set background color for body */
+body {
+  background-color: aquamarine;
+  font-family: Calibri, sans-serif; /* Set font to Calibri */
+}
+
+/* Define wrapper styles */
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  background-color: lightcyan;
+  font-family: Calibri, sans-serif; /* Set font to Calibri */
+}
+
+/* Define container styles */
+.container {
+  margin: 0 auto;
+  font-family: Calibri, sans-serif; /* Set font to Calibri */
+}
+
+/* Style for the navigation bar */
+.topnav {
+  background-color: azure;
+  overflow: hidden;
+  text-align: center; /* Align the text to center */
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Distribute items evenly */
+  font-family: Calibri, sans-serif; /* Set font to Calibri */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 0 20px; /* Add padding to the links */
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Adjust padding for images and divs */
+img {
+  float: left;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+div {
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+}
+
+/* Style for the fieldset */
+fieldset {
+  margin: 20px auto; /* Center the fieldset */
+  width: 97%; /* Set the width */
+  border: 2px solid black; /* Set border */
+  padding: 20px; /* Add padding */
+}
