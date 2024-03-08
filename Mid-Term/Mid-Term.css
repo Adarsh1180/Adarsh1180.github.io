@@ -38,6 +38,16 @@ body {
   width: 1000px;
   background-color: lightcyan;
   font-family: Calibri, sans-serif; /* Set font to Calibri */
+  
+  
+  /* CSS for aligning and resizing the Lone Starfish image */
+article img {
+  width: 150px; /* Set the width of the image */
+  height: 200px; /* Set the height of the image */
+  margin-right: 20px; /* Add some space between the image and the text */
+  margin-bottom: 20px; /* Add some space below the image */
+}
+
 }
 
 /* Define container styles */
