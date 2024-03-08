@@ -26,6 +26,16 @@ h1 {
   font-weight: bold; /* Make the font bold */
 }
 
+/* Styling for p1 */
+p.p1 {
+    font-family: Calibri, sans-serif; /* Set font family */
+    font-size: 16px; /* Set font size */
+    line-height: 1.6; /* Set line height */
+    margin-bottom: 20px; /* Add bottom margin */
+    color: #333; /* Set text color */
+}
+
+
 /* Set background color for body */
 body {
   background-color: aquamarine;
@@ -48,7 +58,7 @@ body {
 
 /* CSS for the second image */
 .passport-img {
-    width: 150px; /* Set width to 150px */
+    width: 200px; /* Set width to 200px */
     height: 200px; /* Set height to 200px */
 }
   
