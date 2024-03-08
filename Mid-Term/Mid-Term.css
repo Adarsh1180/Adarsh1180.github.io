@@ -107,6 +107,7 @@ fieldset {
 
   /* Styling for p */
 p{
+    font-weight: bold;
     margin-left: 10;/*adjusting margins*/
     padding:10;/*adjusting padding*/
     font-family: Calibri, sans-serif; /* Set font family */
