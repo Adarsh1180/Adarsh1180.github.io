@@ -28,6 +28,7 @@ h1 {
 
 /* Styling for p1 */
 p.p1 {
+    margin: 10;/*adjusting margins*/
     font-family: Calibri, sans-serif; /* Set font family */
     font-size: 16px; /* Set font size */
     line-height: 1.6; /* Set line height */
