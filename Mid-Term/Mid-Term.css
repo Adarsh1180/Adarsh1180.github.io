@@ -13,7 +13,7 @@
 
 /* Centered text within the header */
 .centered {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, 180%);
@@ -35,7 +35,7 @@ body {
 
 /* Define wrapper styles */
 .wrapper {
-  margin: 10 auto;
+  margin: 0 auto;
   width: 1000px;
   background-color: lightcyan;
   font-family: Calibri, sans-serif; /* Set font to Calibri */
